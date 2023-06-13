@@ -1,0 +1,11 @@
+/* Mobile First  */
+
+/* Partiamo dal scrivere il codice css, senza media query e che funzioni per uno schermo piccolo. (almeno 320px)
+
+Tutte le media query le andremo a scrivere usando `min-width` e partendo dalla risoluzione più bassa, si sale. */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
