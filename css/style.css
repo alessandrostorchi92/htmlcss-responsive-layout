@@ -48,13 +48,12 @@ section {
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid blue;
 }
 
 .col {
     flex-grow: 1;
     flex-basis: 0;
-    border: 2px solid green;
+    border: 2px solid red;
 }
 
 .col-1-3 {
@@ -67,4 +66,12 @@ section {
 
 .col-1-2 {
     flex-basis: 50%;
+}
+
+.section-about-us {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
 }
