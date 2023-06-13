@@ -6,11 +6,14 @@
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Riproduzione di una pagina di un vero sito in modalità responsive.Partiamo dal realizzare la struttura base del nostro tema solo con i blocchi colorati senza inserire i veri testi, img etc. o pensare al dettaglio.
+    <meta name="description"
+        content="Riproduzione di una pagina di un vero sito in modalità responsive.Partiamo dal realizzare la struttura base del nostro tema solo con i blocchi colorati senza inserire i veri testi, img etc. o pensare al dettaglio.
     L'approccio utilizzato per il responsive è mobile first.
     Partiamo sempre dall'individuare il layout generale e poi iniziamo dall’alto verso il basso. Non passiamo ad una sezione successiva se la precedente non funziona.">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -22,10 +25,19 @@
 <body>
 
     <header>
-        
+
         <!-- In questo caso l'header è costituito esclusivamente dal menu di navigazione  -->
 
         <nav>
+
+            <div class="nav-bar">
+                <div id="logo">
+                    <img src="img/logo.png" alt="Logo Image">
+                </div>
+                <div id="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
 
         </nav>
 
@@ -39,13 +51,29 @@
 
             <!-- In questa sezione sono elencati tutti i servizi erogabili dal cliente  -->
 
+            <div class="container">
+                <div class="row">
+                    <div class="col col-2-3">2/3
+                        <div class="row">
+                            <div class="col col-1-2">1/2</div>
+                            <div class="col col-1-2">1/2</div>
+                        </div>
+                    </div>
+                    
+                    <div class="col col-1-3">1/3</div>
+                    <div class="col col-1-3">1/3</div>
+                    <div class="col col-1-3">1/3</div>
+                    <div class="col col-1-3">1/3</div>
+                </div>
+            </div>
+
         </section>
 
         <!-- Sezione 2 -->
 
         <section>
 
-            <!-- In questa sezione possiamo trovare i settori principali di cui si occupa il cliente   -->
+            <!-- In questa sezione sono esplicitati i settori principali di cui si occupa il cliente   -->
 
         </section>
 
@@ -82,11 +110,11 @@
         </section>
 
         <footer>
-            
+
         </footer>
 
     </main>
-    
+
 </body>
 
 </html>
