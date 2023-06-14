@@ -1,5 +1,7 @@
 :root {
+    --primary-colour: #9792E4;
     --secondary-colour: #B4DDFF;
+    --tertiary-colour: white;
     --quaternary-colour: #0184FD;
     --default-gap: 1rem;
 }
@@ -15,6 +17,12 @@ body {
 font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
 h3 {
     font-size: 22px;
     margin-bottom: 1.5rem;
@@ -23,6 +31,8 @@ h3 {
 
 p {
     line-height: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 nav {
@@ -95,7 +105,7 @@ section {
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .secondary-colour-card {
@@ -122,7 +132,7 @@ section {
 
 .blue-btn {
     background-color: var(--quaternary-colour);
-    width: 170px;
+    width: 200px;
 }
 
 .blue-btn i {
@@ -142,12 +152,60 @@ section {
 }
 
 .secondary-colour-card img {
-    height: 300px;
+    max-width: 60%;
+    object-fit: contain;
 }
 
 .icon-container {
     text-align: center;
     padding: 2rem 4rem;
+}
+
+.purple-container {
+    background-color: var(--primary-colour);
+}
+
+.purple-container img {
+    max-width: 80%;
+    object-fit: contain;
+    align-self: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.purple-container h2 {
+    color: white;
+    align-self: center;
+}
+
+.purple-container p {
+    color: white;
+    align-self: center;
+    padding-bottom: 0.8rem;    
+}
+
+.tertiary-colour-card {
+    background-color: white;
+    margin-bottom: 3.5rem;
+}
+
+.tertiary-colour-card img {
+    max-width: 70%;
+    object-fit: contain;
+    padding-bottom: 0.5rem;
+}
+
+.tertiary-colour-card p {
+    color: black;
+}
+
+.icon-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--primary-colour);
+    margin-bottom: 1rem;
 }
 
 .section-about-us {
